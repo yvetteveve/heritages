@@ -1,0 +1,5 @@
+virtual/
+.vscode/
+collage/__pycache__/
+gallery/__pycache__/
+.env

@@ -1,0 +1,1 @@
+web: gunicorn collage.wsgi --log-file -

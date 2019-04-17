@@ -1,0 +1,92 @@
+h1{
+    font-family: 'Itim', cursive;
+    font-style: oblique
+   
+}
+.jumbotron{
+    margin-top:-20px;
+    background-image: url("/static/photo/photo1.jpg"); 
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: rgba(  0, 0, 0 ,0.6);
+    text-align-last: center;
+    color: whitesmoke;
+    
+}
+img{
+    border-radius: 20px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+ img:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    opacity: 0.8;
+    transition: .5s ease;
+    transform: translateY(-7px);
+ }
+hr{
+    height: 20px;
+    border: 0px; 
+    
+}
+
+#car{
+    border-radius: 0px;
+}
+#car:hover{
+    transform: translateY(0px);
+    opacity: 1;
+ 
+}
+.thumbnail{
+    width: 650px;
+  }
+.names{
+    height: 120px;
+    font-family: 'Patua One', cursive;
+    font-size:28px;
+}
+.about{
+  
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center
+
+}
+.contact{
+   
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center  
+}
+p{
+    color: whitesmoke;
+    font-family: 'Patrick Hand', cursive;
+    font-size:20px;
+}
+h2{
+    font-family: 'Itim', cursive;
+    font-size:36px;
+    color: dodgerblue   
+}
+button{
+    font-family: 'Boogaloo', cursive;
+}
+h3{
+    font-family: 'Pacifico', cursive;
+}
+h5{
+    font-family: 'Patrick Hand', cursive;
+    font-size:26px;
+}
+
+.modal-content{
+    background-color: #303033;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    color: whitesmoke
+}

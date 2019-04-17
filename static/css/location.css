@@ -1,0 +1,33 @@
+img{
+    border-radius: 10px;
+}
+h1{
+    font-family: 'Fugaz One', cursive;
+    color: whitesmoke
+    
+}
+hr{
+    background-color: black;
+}
+p{
+    font-family: 'Concert One', cursive;
+    color: whitesmoke
+}
+
+.modal-content{
+    background-color: #303033;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    color: whitesmoke
+}
+
+
+h5{
+    font-family: 'Capriola', sans-serif;
+    font-size:26px;
+}
+
+p{
+    color: whitesmoke;
+    font-size:20px;
+}

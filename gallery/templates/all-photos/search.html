@@ -1,0 +1,33 @@
+{%extends 'all-photos/base.html'%} 
+{% block content %}
+
+<div class="container-fluid">
+  <div class="row">
+    
+    {% if images_found %}
+      <center><h2 style="color:brown">{{ images_found |length }}  {{message}} Found</h2></center>
+    {% else %}
+      <h2> No search images {{message}}</h2>
+    {% endif %}
+
+  </div>
+
+  
+    <div class="row">
+     
+          {% if images_found %}
+          {% for im in images_found %}
+          <div class="col-md-3">
+                <img src="{{im.image.url}}">
+                <p>{{im.description}}</p>
+                
+            </div>
+          {% endfor %}
+        {% endif %}
+        </div>
+    </div>
+
+ 
+       
+      
+{% endblock %}
